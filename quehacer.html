@@ -8,20 +8,56 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <style>
+        .full-height {
+            height: 100vh;
+        }
+        .flex-center {
+            align-items: center;
+            display: flex;
+            justify-content: center;
+        }
+        .position-ref {
+            position: relative;
+        }
+        .top-right {
+            position: absolute;
+            right: 10px;
+            top: 18px;
+        }
+        .content {
+            text-align: center;
+        }
+        .title {
+            font-size: 84px;
+        }
+        .links > a {
+            color: #636b6f;
+            padding: 0 25px;
+            font-size: 13px;
+            font-weight: 600;
+            letter-spacing: .1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        .m-b-md {
+            margin-bottom: 30px;
+        }
+    </style>
   </head>
   <body style="font-family: 'Nunito', sans-serif;">
-    <div class="" style="background-image: url('https://i2.wp.com/mundus-international.com/wp-content/uploads/2016/05/globe-in-hand.jpg?fit=1000%2C761&ssl=1'); background-size:cover;">
+    <div class="flex-center position-ref full-height" id="arriba" style="background-image: url('https://i2.wp.com/mundus-international.com/wp-content/uploads/2016/05/globe-in-hand.jpg?fit=1000%2C761&ssl=1'); background-size:cover;">
       <div class="container-fluid">
         <br>
-        <div class="row ml-2">
+        <div class="row ml-2 mt-5">
           <a href="menu.html" class="btn btn-secondary">
             <i class="fas fa-angle-double-left" style="color:white;" width="7" height="7"></i>&nbsp;&nbsp;VOLVER
           </a>
         </div>
         <br>
-        <div class="row justify-content-end" style=" background-color: RGBA(0,0,0,0.5)">
+        <div class="row justify-content-center align-items-center" style=" background-color: RGBA(0,0,0,0.5)">
           <div class="">
-            <p class="font-weight-bold text-light mr-5" style="font-size:50px;">¿Qué hacer?</p>
+            <p class="font-weight-bold text-light" style="font-size:4vw;">¿Qué hacer?</p>
           </div>
         </div>
         <br>
@@ -39,12 +75,9 @@
         <br>
         <br>
         <br>
-        <br>
-        <br>
-        <br>
         <div class="row justify-content-center">
           <a href="#info" class="btn btn-secondary">
-            <h5 class="font-weight-bold text-light">LEER MÁS</h5>
+            <h5 class="font-weight-bold text-light">Ver más</h5>
             <i class="fas fa-angle-double-down" style="color:white;" width="7" height="7"></i>
           </a>
         </div>
@@ -53,29 +86,74 @@
         <br>
       </div>
     </div>
-    <div id="info" class="container bg-dark">
-        <p>1</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
-        <p>Hola</p>
+    <div class="">
+      <br>
+      <br>
+      <br>
+      <div class="p-5" id="info" style="background-color: RGB(241, 238, 238)">
+        <div class="row justify-content-center w-100">
+          <div class="col-lg-8 col-sm-12" style="text-align:center">
+            <strong style="font-size: 50px; text-shadow: 2vh 20px RGBA(0,0,0,0.05);" class="text-primary text-weight-bolder">¿QUÉ HACER?</strong>
+          </div>
+          <div class="col-lg-4 col-sm-12" style="text-align:center">
+            <i class="fas fa-recycle" style="font-size:7vh"></i>
+          </div>
+        </div>
+      </div>
+      <div class="container p-5">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-lg-4 col-sm-12">
+                <p style="font-size:3.5vh; text-align:justify">El plástico puede tener un aspecto positivo en nuestras actividades a costa de nuestro bienestar ambiental, es por ello que ofrecemos algunas alternativas que pueden seguir beneficiando tu dia a día y a su vez, puede ayudar al cuidado del medio ambiente. Es la estrategia perfecta: ganar-ganar.</p>
+            </div>
+            <div class="col-lg-8 col-sm-12">
+              <div id="demo" class="carousel slide" data-ride="carousel">
+                <ul class="carousel-indicators">
+                  <li data-target="demo" data-slide-to="0" class="active"></li>
+                  <li data-target="demo" data-slide-to="1"></li>
+                  <li data-target="demo" data-slide-to="2"></li>
+                  <li data-target="demo" data-slide-to="3"></li>
+                  <li data-target="demo" data-slide-to="4"></li>
+                  <li data-target="demo" data-slide-to="5"></li>
+                  <li data-target="demo" data-slide-to="6"></li>
+                </ul>
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-interval="5000">
+                    <img src="imagenes/1.png" class="w-100">
+                  </div>
+                  <div class="carousel-item" data-interval="5000">
+                    <img src="imagenes/2.png" class="w-100">
+                  </div>
+                  <div class="carousel-item" data-interval="5000">
+                    <img src="imagenes/3.png" class="w-100">
+                  </div>
+                  <div class="carousel-item" data-interval="5000">
+                    <img src="imagenes/4.png" class="w-100">
+                  </div>
+                  <div class="carousel-item" data-interval="5000">
+                    <img src="imagenes/5.png" class="w-100">
+                  </div>
+                  <div class="carousel-item" data-interval="5000">
+                    <img src="imagenes/6.png" class="w-100">
+                  </div>
+                  <div class="carousel-item" data-interval="5000">
+                    <img src="imagenes/7.png" class="w-100">
+                  </div>
+                </div>
+                <a href="#demo" class="carousel-control-prev" data-slide="prev"><span class="carousel-control-prev-icon"></span></a>
+                <a href="#demo" class="carousel-control-next" data-slide="next"><span class="carousel-control-next-icon"></span></a>
+              </div>
+            </div>
+        </div>
+      </div>
+        <footer style="position:fixed; bottom: 0px; left:30px;">
+          <div class="container mb-5">
+            <div class="row justify-content-center">
+              <a href="#arriba" class="btn btn-secondary">
+                <i class="fas fa-angle-double-up" style="color:white;" width="7" height="7"></i>
+              </a>
+            </div>
+          </div>
+        </footer>
     </div>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
